@@ -20,7 +20,9 @@ app.set('views', '/views');
 app.get('/', function (req, res) {
     //El 'index' es el template que usare que esta en la carpeta views
     res.render('index', {
-        titulo: 'Hola'
+        titulo: 'Hola',
+        logohbs:'https://handlebarsjs.com/images/handlebars_logo.png'
+
     });
 });
 
