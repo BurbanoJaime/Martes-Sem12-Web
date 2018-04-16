@@ -14,7 +14,7 @@ app.engine('hbs', consolidate.handlebars);
 app.set('view engine', 'hbs');
 
 //Cambio la carpeta donde tengo los templates que quiero
-app.set('views', '/views');
+app.set('views', './views');
 
 
 app.get('/', function (req, res) {
