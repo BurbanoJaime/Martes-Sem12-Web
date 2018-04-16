@@ -20,7 +20,7 @@ app.set('views', './views');
 //-------->el segundo 'css' es la carpeta donde tengo mis estilos
 /*-------->app.use('/css',express.static('css'));*/
 
-
+app.use(express.static('public'));
 
 
 app.get('/', function (req, res) {
